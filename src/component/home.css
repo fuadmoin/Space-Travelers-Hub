@@ -1,0 +1,54 @@
+.navBar {
+  display: flex;
+  padding: 2rem 3rem;
+  height: 3rem;
+  border-bottom: 1px solid black;
+}
+
+.navBar h1 {
+  font-size: 40px;
+  position: relative;
+  top: -2.5rem;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35rem;
+}
+
+.navLinks li {
+  list-style: none;
+  margin: 0 1rem;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.rocketContainer {
+  display: flex;
+  padding: 2rem;
+}
+
+.rocketImage {
+  width: 200px;
+  height: 200px;
+}
+
+.detailContainer {
+  margin-left: 1rem;
+}
+
+.detailContainer button {
+  height: 30px;
+  width: 130px;
+  border-style: hidden;
+  background-color: rgb(5, 73, 199);
+  color: white;
+}
