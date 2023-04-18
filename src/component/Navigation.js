@@ -1,10 +1,10 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../img/planetLogo.png';
 
 const Links = [
   { path: '/', name: 'Home' },
-  { path: '/categories', name: 'Categories' },
+  { path: '/myProfile', name: 'MyProfile' },
 ];
 
 const Navigation = () => (
@@ -19,8 +19,16 @@ const Navigation = () => (
     <ul>
       {Links.map((link) => (
         <li key={link.name}>
-          {/* <NavLink key={link.name} to={link.path}>{link.name}</NavLink> */}
-          <a href={link.path} key={link.name}>{link.name}</a>
+          <NavLink
+            exact
+            key={link.name}
+            to={link.path}
+            style={({ isActive }) => ({
+              textDecoration: isActive ? 'underline' : 'none',
+            })}
+          >
+            {link.name}
+          </NavLink>
         </li>
       ))}
     </ul>
