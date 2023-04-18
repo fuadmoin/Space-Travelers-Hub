@@ -4,6 +4,7 @@ import logo from '../img/planetLogo.png';
 
 const Links = [
   { path: '/', name: 'Home' },
+  { path: '/mission', name: 'Mission' },
   { path: '/myProfile', name: 'MyProfile' },
 ];
 
