@@ -12,7 +12,7 @@ const Home = () => {
     dispatch(bookRocket(id));
   };
   useEffect(() => {
-    dispatch(fetchRockets());
+    if (!rockets.length) dispatch(fetchRockets());
   }, [dispatch]);
   return (
     <div>
