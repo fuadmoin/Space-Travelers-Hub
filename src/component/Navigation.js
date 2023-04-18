@@ -5,7 +5,7 @@ import './home.css';
 
 const Links = [
   { path: '/', name: 'Rockets' },
-  { path: '/missions', name: 'Missions' },
+  { path: '/mission', name: 'Missions' },
   { path: '/myProfile', name: 'MyProfile' },
 ];
 
@@ -27,7 +27,6 @@ const Navigation = () => {
         {Links.map((link) => (
           <li key={link.name}>
             <NavLink
-              exact
               key={link.name}
               to={link.path}
               style={({ isActive }) => ({
