@@ -13,7 +13,7 @@ const Home = () => {
   };
   useEffect(() => {
     if (!rockets.length) dispatch(fetchRockets());
-  }, [dispatch]);
+  }, [dispatch, rockets]);
   return (
     <div>
       {
