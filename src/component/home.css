@@ -37,12 +37,13 @@
 }
 
 .rocketImage {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 
 .detailContainer {
   margin-left: 1rem;
+  position: relative;
 }
 
 .btnReserve {
@@ -54,4 +55,31 @@
   border-style: hidden;
   background-color: rgb(5, 73, 199);
   color: white;
+}
+
+.myProfile {
+  display: flex;
+  padding: 2rem 5rem;
+}
+
+.myProfile h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.myRocket {
+  margin-left: 5rem;
+}
+
+.reservedContainer {
+  width: 550px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.item {
+  border: 1px solid grey;
+  height: 45px;
+  padding-left: 10px;
+  padding-top: 5px;
 }

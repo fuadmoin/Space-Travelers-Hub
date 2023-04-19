@@ -24,7 +24,7 @@ const Home = () => {
           <div key={rocket.id} className="rocketContainer">
             <img className="rocketImage" src={rocket.flickr_images} alt="rocket" />
             <div className="detailContainer" key={rocket.rocket_name}>
-              <h1>{rocket.rocket_name}</h1>
+              <h1>{rocket.name}</h1>
               <p>{rocket.description}</p>
               <RocketBooking
                 bookRocket={handleRocketBooking}
