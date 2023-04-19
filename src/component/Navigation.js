@@ -5,7 +5,7 @@ import './home.css';
 
 const Links = [
   { path: '/', name: 'Rockets' },
-  { path: '/missions', name: 'Missions' },
+  { path: '/mission', name: 'Missions' },
   { path: '/myProfile', name: 'MyProfile' },
 ];
 
