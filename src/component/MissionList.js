@@ -22,8 +22,9 @@ function MissionLists({ mission }) {
         {!mission.reserved && <button type="button" className={styles.notMember}>Not a member</button>}
       </td>
       <td className={styles.td}>
-        {mission.reserved && <button type="button" className={styles.leave} onClick={() => handleLeave(mission.mission_id)}>Leave Mission</button>}
         {!mission.reserved && <button type="button" className={styles.join} onClick={() => handleJoin(mission.mission_id)}>Join Mission</button>}
+        {mission.reserved && <button type="button" className={styles.leave} onClick={() => handleLeave(mission.mission_id)}>Leave Mission</button>}
+
       </td>
     </tr>
 
