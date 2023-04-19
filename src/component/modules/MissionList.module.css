@@ -23,7 +23,31 @@
 }
 
 button {
+  margin-left: 0.7rem;
+  width: max-content;
+  border-radius:0.2rem ;
+}
+
+.activeMember {
+  background-color: rgb(83, 139, 192);
+  border: none;
+  color: #fff;
+}
+
+.notMember {
+  background-color: gray;
+  color: #fff;
+  border: none;
+}
+
+.join {
+  border: 1px solid gray;
+  background-color: #fff;
+  color: gray;
+}
+
+.leave {
   border: 1px solid rgb(231, 88, 88);
   color: rgb(231, 88, 88);
-  margin-left: 2rem;
+  background-color: #fff;
 }

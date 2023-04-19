@@ -8,8 +8,10 @@ const Mission = () => {
   const { missions, isLoading, error } = useSelector((store) => store.missions);
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchMissions());
-  }, [dispatch]);
+    if (missions.length === 0) {
+      dispatch(fetchMissions());
+    }
+  }, [dispatch, missions.length]);
   return (
     <div className={styles.container}>
       {isLoading && <h2>Loadding...</h2>}
