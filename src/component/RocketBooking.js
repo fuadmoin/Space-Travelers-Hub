@@ -22,7 +22,7 @@ const RocketBooking = ({ bookRocket, id, status }) => {
           () => bookRocket(id)
       }
     >
-      {status ? 'Cancel Reservation' : 'Reserve'}
+      {status ? 'Cancel Reservation' : 'Reserve Rocket'}
     </button>
   );
 };
