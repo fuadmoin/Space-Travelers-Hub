@@ -27,7 +27,6 @@ const Navigation = () => {
         {Links.map((link) => (
           <li key={link.name}>
             <NavLink
-              exact
               key={link.name}
               to={link.path}
               style={({ isActive }) => ({

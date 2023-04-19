@@ -37,8 +37,8 @@
 }
 
 .rocketImage {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .detailContainer {
@@ -48,6 +48,8 @@
 .detailContainer button {
   height: 30px;
   width: 130px;
+  position: relative;
+  left: -2rem;
   border-style: hidden;
   background-color: rgb(5, 73, 199);
   color: white;
