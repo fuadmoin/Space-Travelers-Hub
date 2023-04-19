@@ -45,7 +45,8 @@
   margin-left: 1rem;
 }
 
-.detailContainer button {
+.btnReserve {
+  cursor: pointer;
   height: 30px;
   width: 130px;
   position: relative;
