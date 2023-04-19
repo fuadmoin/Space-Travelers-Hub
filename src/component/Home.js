@@ -1,5 +1,6 @@
 import React from 'react';
 import place from '../img/planetLogo.png';
+import './home.css';
 
 const Home = () => {
   const arr = [
