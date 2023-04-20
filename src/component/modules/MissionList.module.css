@@ -26,6 +26,7 @@ button {
   margin-left: 0.7rem;
   width: max-content;
   border-radius: 0.2rem;
+  cursor: pointer;
 }
 
 .activeMember {
