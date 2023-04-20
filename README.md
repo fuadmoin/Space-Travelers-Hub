@@ -5,7 +5,7 @@
   <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Title</b></h3>
+  <h3><b>Space Travelers Hub</b></h3>
 
 </div>
 
@@ -30,26 +30,28 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Math magicians <a name="about-project"></a>
+# 📖 Space Travelers' Hub <a name="about-project"></a>
 
-**Math magicians** is a single page app that uses api for a basic calculator.
+**Space Travelers' Hub** is a single-page app that fetches data from SpaceX API. It has three pages: Rockets - which displays available rockets by name, description, and image. Missions - which list available missions by description. And My-Profile - which shows reserved rockets and missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **HTML, CSS, React, and JavaScript**
+- **CSS, React, Redux, Jest-Test, Redux-Toolkit**
 
 ### Key Features <a name="key-features"></a>
 
-- **html styled with css and javascript**
-- **uses react**
+- **React styled with CSS**
+- **uses Redux**
+- **uses Redux-Toolkit**
+- **uses API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-> Check out the live demo for this project [here.](https://fuadmoin.github.io/TODOLIST/dist/)
+> Check out the live demo for this project [here.](https://space-travelers-hub-z6fj.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +77,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git https://github.com/fuadmoin/Math-magicians.git
+  git https://github.com/fuadmoin/Space-Travelers-Hub.git
 ```
 
 ### Install <a name="install"></a>
@@ -103,11 +105,11 @@ npm test
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using Github-Page.
+You can deploy this project using [Render](https://render.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Fuad Abdlemoin**
 
@@ -115,19 +117,25 @@ You can deploy this project using Github-Page.
 - Twitter: [@Fuad01804580](https://twitter.com/Fuad01804580)
 - LinkedIn: [Fuad Moin](https://www.linkedin.com/in/fuad-moin-a7b126259/)
 
+👤 **Yidnekachew Kassahun**
+
+- GitHub: [Yidne](https://github.com/Yidnekachew-cmd)
+- Twitter: [Yidne](https://twitter.com/Yidnekassahun)
+- LinkedIn: [Yidne](https://www.linkedin.com/in/yidnekachew-kassahun-2b817a24b/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[HTML, CSS, and Javascript will be added]**
-- [ ] **[Api will be added]**
-- [ ] **[users will be able to use the calculator]**
+- [ ] **More styling will be done**
+- [ ] **Mobile version will be added**
+- [ ] **Users will be able to cancel reservation on MyProfile Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, [issues](https://github.com/fuadmoin/Math-magicians/issues), and feature requests are welcome!
+Contributions, [issues](https://github.com/fuadmoin/Space-Travelers-Hub/issues), and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
