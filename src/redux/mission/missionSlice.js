@@ -26,7 +26,7 @@ const missionSlice = createSlice({
         }
         return {
           ...mission,
-          reserved: true,
+          joined: true,
         };
       });
       return {
@@ -41,7 +41,7 @@ const missionSlice = createSlice({
         }
         return {
           ...mission,
-          reserved: false,
+          joined: false,
         };
       });
       return {

@@ -18,12 +18,12 @@ function MissionLists({ mission }) {
         {mission.description}
       </td>
       <td className={styles.td}>
-        {mission.reserved && <button type="button" className={styles.activeMember}>Active Member</button>}
-        {!mission.reserved && <button type="button" className={styles.notMember}>Not a member</button>}
+        {mission.joined && <button type="button" className={styles.activeMember}>Active Member</button>}
+        {!mission.joined && <button type="button" className={styles.notMember}>Not a member</button>}
       </td>
       <td className={styles.td}>
-        {!mission.reserved && <button type="button" className={styles.join} onClick={() => handleJoin(mission.mission_id)}>Join Mission</button>}
-        {mission.reserved && <button type="button" className={styles.leave} onClick={() => handleLeave(mission.mission_id)}>Leave Mission</button>}
+        {!mission.joined && <button type="button" className={styles.join} onClick={() => handleJoin(mission.mission_id)}>Join Mission</button>}
+        {mission.joined && <button type="button" className={styles.leave} onClick={() => handleLeave(mission.mission_id)}>Leave Mission</button>}
 
       </td>
     </tr>
@@ -36,7 +36,7 @@ MissionLists.propTypes = {
     mission_id: PropTypes.string.isRequired,
     mission_name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    reserved: PropTypes.bool,
+    joined: PropTypes.bool,
   }).isRequired,
 };
 export default MissionLists;
