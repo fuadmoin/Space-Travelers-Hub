@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render the Home component 1`] = `
+<div>
+  <div
+    className="rocketContainer"
+  >
+    <img
+      alt="rocket"
+      className="rocketImage"
+      src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+    />
+    <div
+      className="detailContainer"
+    >
+      <h1>
+        Falcon 1
+      </h1>
+      <p>
+        The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009
+      </p>
+      <button
+        className="btnReserve"
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+  <div
+    className="rocketContainer"
+  >
+    <img
+      alt="rocket"
+      className="rocketImage"
+      src="https://farm1.staticflickr.com/929/28787338307_3453a11a77_b.jpg"
+    />
+    <div
+      className="detailContainer"
+    >
+      <h1>
+        Falcon 9
+      </h1>
+      <p>
+        Falcon 9 is a partially reusable two-stage-to-orbit medium lift launch vehicle designed and manufactured by SpaceX.
+      </p>
+      <button
+        className="btnReserve"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderBottom": "1px solid black",
+            "borderLeft": "1px solid grey",
+            "borderRight": "1px solid black",
+            "borderTop": "1px solid grey",
+            "color": "grey",
+            "width": "150px",
+          }
+        }
+        type="button"
+      >
+        Cancel Reservation
+      </button>
+    </div>
+  </div>
+</div>
+`;

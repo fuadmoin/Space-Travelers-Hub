@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
+import renderer from 'react-test-renderer';
 import configureMockStore from 'redux-mock-store';
 import MyProfile from '../component/MyProfile';
 
 const mockStore = configureMockStore();
 const store = mockStore({
-  rockets: {
+  rocket: {
     rockets: [
       {
         id: '1',
