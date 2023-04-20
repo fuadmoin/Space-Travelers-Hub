@@ -1,0 +1,54 @@
+.th,
+.td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.th:nth-child(1) {
+  padding: 1rem;
+}
+
+.td {
+  padding: 1rem;
+}
+
+.td:nth-child(3),
+.td:nth-child(4) {
+  width: 15%;
+  margin: 5rem auto;
+}
+
+.tr:nth-child(even) {
+  background-color: #ecebeb;
+}
+
+button {
+  margin-left: 0.7rem;
+  width: max-content;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.activeMember {
+  background-color: rgb(83, 139, 192);
+  border: none;
+  color: #fff;
+}
+
+.notMember {
+  background-color: gray;
+  color: #fff;
+  border: none;
+}
+
+.join {
+  border: 1px solid gray;
+  background-color: #fff;
+  color: gray;
+}
+
+.leave {
+  border: 1px solid rgb(231, 88, 88);
+  color: rgb(231, 88, 88);
+  background-color: #fff;
+}

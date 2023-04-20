@@ -1,0 +1,85 @@
+.navBar {
+  display: flex;
+  padding: 2rem 3rem;
+  height: 3rem;
+  border-bottom: 1px solid black;
+}
+
+.navBar h1 {
+  font-size: 40px;
+  position: relative;
+  top: -2.5rem;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35rem;
+}
+
+.navLinks li {
+  list-style: none;
+  margin: 0 1rem;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.rocketContainer {
+  display: flex;
+  padding: 2rem;
+}
+
+.rocketImage {
+  width: 200px;
+  height: 200px;
+}
+
+.detailContainer {
+  margin-left: 1rem;
+  position: relative;
+}
+
+.btnReserve {
+  cursor: pointer;
+  height: 30px;
+  width: 130px;
+  position: relative;
+  left: -0.5rem;
+  border-style: hidden;
+  background-color: rgb(5, 73, 199);
+  color: white;
+}
+
+.myProfile {
+  display: flex;
+  padding: 2rem 5rem;
+}
+
+.myProfile h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.myRocket {
+  margin-left: 5rem;
+}
+
+.reservedContainer {
+  width: 550px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.item {
+  border: 1px solid grey;
+  height: 45px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
